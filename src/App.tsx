@@ -1,7 +1,14 @@
-import Card from "./components/Card"
+import Card from "./components/Card";
+import brasil from "/brazil.svg";
+
 
 function App() {
-  return <Card/>
+  return (
+    <div>
+      <img src={brasil} alt="Mapa do brasil" />
+      <Card />
+    </div>
+  );
 }
 
 export default App
